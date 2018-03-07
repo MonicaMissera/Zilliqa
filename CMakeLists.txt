@@ -15,7 +15,7 @@ link_libraries(${SNAPPY_LIBRARIES})
 
 message(STATUS "checking for module 'openssl'")
 
-find_path(OPENSSL_INCLUDE_DIR
+ind_path(OPENSSL_INCLUDE_DIR
     NAMES openssl/opensslv.h
     PATHS /usr/local/opt/openssl/include /opt/local/include /usr/local/include /usr/include
     DOC "Path in which openssl headers are located."
